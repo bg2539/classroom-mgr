@@ -13,12 +13,24 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-
+  
+  <repositories>
+    <repository>
+      <id>jgit-repository</id>
+      <url>https://repo.eclipse.org/content/groups/releases/</url>
+    </repository>
+  </repositories>
+  
   <dependencies>
     <dependency>
     	<groupId>org.eclipse.mylyn.github</groupId>
     	<artifactId>org.eclipse.egit.github.core</artifactId>
-    	<version>4.5.0.1-SNAPSHOT</version>
+    	<version>4.5.1-SNAPSHOT-w4118</version>
+    </dependency>
+    <dependency>
+      <groupId>org.eclipse.jgit</groupId>
+      <artifactId>org.eclipse.jgit</artifactId>
+      <version>4.4.1.201607150455-r</version>
     </dependency>
   </dependencies>
   <build><plugins>
